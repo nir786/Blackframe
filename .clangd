@@ -1,0 +1,14 @@
+CompileFlags:
+  Add:
+    - "-std=c++20"
+    - "-Iinclude"
+    - "-Wall"
+    - "-Wextra"
+    - "-Wpedantic"
+    - "-Ilibs/imgui"
+    - "-libs/sol2/include"
+    - "-I/home/nir/Blackframe"
+  
+
+  Diagnostics:
+    UnusedIncludes: Strict
